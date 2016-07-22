@@ -12,9 +12,11 @@
   },
   "filesGlob": [
     "packages/**/*.ts",
-    "typings/**/*.d.ts"
+    "typings/**/*.d.ts",
+    "ui-mobile/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "ui-mobile/node_modules"
   ]
 }

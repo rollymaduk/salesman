@@ -4,14 +4,14 @@ module.exports = function (wallaby) {
 
         files: [
 
-            {pattern: 'packages/**/*.ts'},
-            {pattern: 'packages/**/test/specs/*.spec.ts',  ignore:true},
-            {pattern: 'packages/**/test/*.spec.ts',  ignore:true},
+            {pattern: 'library/**/*.ts'},
+            {pattern: 'library/**/test/specs/*.spec.ts',  ignore:true},
+            {pattern: 'library/**/test/*.spec.ts',  ignore:true},
             {pattern: 'typings/**/*.ts'}
         ],
         tests: [
-            {pattern: 'packages/**/test/*.spec.ts'},
-            {pattern: 'packages/**/test/specs/*.spec.ts'}
+            {pattern: 'library/**/test/*.spec.ts'},
+            {pattern: 'library/**/test/specs/*.spec.ts'}
         ],
         debug: true,
         maxConsoleMessagesPerTest: 10000,
